@@ -6,7 +6,7 @@ public class Activity
     protected string _name;
     protected string _description;
     protected int _duration;
-
+    public static int SessionCount = 0;
     public Activity()
     {
         _name = "Unknown Activity";
@@ -23,7 +23,7 @@ public class Activity
         
         Console.Write("How long, in seconds, would you like for your session? ");
         _duration = int.Parse(Console.ReadLine());
-
+        SessionCount++;
         Console.Clear();
         Console.WriteLine("Get ready...");
         ShowSpinner(3);
