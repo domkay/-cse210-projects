@@ -1,0 +1,2 @@
+0
+SimpleGoal:Pushups,Do 50 pushups everyday.,10,False
